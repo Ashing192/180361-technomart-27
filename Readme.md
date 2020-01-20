@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Дмитрий Савицкий](https://up.htmlacademy.ru/htmlcss/27/user/180361).
-* Наставник: [Наталья Налимова](https://htmlacademy.ru/profile/tuetfe).
+* Наставник: [Тимур Карагулов](https://htmlacademy.ru/profile/id1111507).
 
 ---
 
