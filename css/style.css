@@ -617,21 +617,44 @@ footer {
 
 .footer-navigation {
   display: flex;
+  margin: 0;
   margin-left: 160px;
   padding: 0;
   flex-grow: 1;
   display: flex;
 }
-
-.footer-navigation li{
-  justify-content: center;
-}
-
 .footer-navigation a{
-  display: block;
+  
 }
 
 .footer-navigation li{
   flex-grow: 1;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-right: 45px;
+  min-height: 68px;
+  box-sizing: border-box;
+  padding-top: 39px;
+}
+
+.footer-navigation li:last-child{
+  margin-right: 0px;
+}
+
+.footer-navigation-orangeWords {
+  display: flex;
+  margin: 0;
+  margin-left: 70px;
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+}
+
+.footer-top {
+  min-height: 194px;
+  background-color: #32425c;
+}
+
+.address {
+  margin-top: 30px;
+  margin-left: 2px;
 }
