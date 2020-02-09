@@ -271,7 +271,7 @@ p {
     background-image: url(../img/truck.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-  min-height: 522px;
+    min-height: 520px;
 }
 .service-delivery li {
     font-family: Cuprum;
@@ -491,10 +491,9 @@ main {
 
 .mini-slider {
   width: 240px;
-  min-height: 183px;
+  min-height: 180px;
   padding: 0;
   margin: 0;
-  margin-left: 10px;
   background-color: aqua;
   margin-top: 67px;
   display: flex;
@@ -502,7 +501,8 @@ main {
   flex-wrap: wrap;
 }
 .mini-slider li {
-  width: 240px;
+  min-width: 240px;
+  min-height: 63px;
 }
 .service  {
     font-family: Cuprum;
@@ -512,20 +512,13 @@ main {
     color: #000000;
     font-weight: 400;
   padding-top: 67px;
-  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .mini-slider-container p {
   margin: 0;
   padding: 0;
 }
-
-.mini-slider-container div {
-  min-height: 185px;
-  margin-top: 67px;
-  margin-left: 60px;
-}
-
 .mini-slider-container div :first-child {
     font-family: Cuprum;
     font-size: 36px;
@@ -533,4 +526,26 @@ main {
     text-transform: uppercase;
     color: #32425c;
     margin-bottom: 40px;
+}
+
+
+
+
+
+.service-delivery p {
+  width: 100%;
+  padding-right: 56%;
+}
+
+
+
+.direction-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mini-slider-container {
+  margin-top: 67px;
+  margin-left: 80px;
 }
