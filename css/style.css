@@ -549,3 +549,89 @@ main {
   margin-top: 67px;
   margin-left: 80px;
 }
+
+.h2-text-style {
+    font-family: Cuprum;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 28px;
+}
+.medium-red-block {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 39px;
+  background-color: #ee3643;
+  color: #ffffff;
+}
+.company {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+
+
+
+.company p {
+  width: 640px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.contacts {
+  padding-top: 60px;
+}
+
+.info {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  min-height: 540px;
+}
+
+h2 {
+  
+}
+
+.company .medium-red-block{
+  margin-right: 410px;
+}
+
+footer {
+    background-color: #293449;
+    color: #ffffff;
+}
+
+
+
+.footer-container-fix {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 68px;
+}
+
+.footer-navigation {
+  display: flex;
+  margin-left: 160px;
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+}
+
+.footer-navigation li{
+  justify-content: center;
+}
+
+.footer-navigation a{
+  display: block;
+}
+
+.footer-navigation li{
+  flex-grow: 1;
+  margin-left: 20px;
+}
