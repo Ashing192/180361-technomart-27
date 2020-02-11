@@ -590,7 +590,7 @@ main {
   display: flex;
   width: 960px;
   margin: 0 auto;
-  min-height: 540px;
+  min-height: 538px;
 }
 
 h2 {
@@ -655,6 +655,52 @@ footer {
 }
 
 .address {
-  margin-top: 30px;
-  margin-left: 2px;
+  margin-top: 28px;
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-orangeWords li{
+  padding-top: 30px;
+}
+
+
+
+.footerorangeWords li{
+  padding-top: 27px;
+}
+
+.footerorangeWords {
+  margin-left: 73px;
+  color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.all-rights-reserved {
+  width: 248px;
+}
+
+.footer-bot {
+  min-height: 106px;
+  font-size: 16px;
+}
+
+.footer-bot .footer-container-fix{
+  margin-top: 36px;
+}
+
+.social-block {
+  width: 160px;
+}
+
+.feedback-to {
+  width: 140px;
+  margin-left: 232px;
+}
+
+.developed {
+  width: 110px;
+  margin-left: 48px;
 }
