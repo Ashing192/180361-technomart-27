@@ -69,27 +69,7 @@
           <li>перфораторы</li>  
         </ul>
         <h1 class="main-title">Перфораторы</h1>
-        <div class="sorting-block">
-          сортировка:
-          <ul>   
-            <li>
-              <a href="">по цене</a>
-            </li>
-            <li>
-              <a href="">по типу</a>
-            </li>
-            <li>
-              <a class="active" href="">по функционалу</a>
-            </li>
-            <li>
-              <a class="triangle-sort visually-hidden" href="">По убыванию</a>
-            </li>
-            <li>
-              <a class="triangle-sort visually-hidden" href="">По возрастанию</a>
-            </li>
-          </ul>       
-        </div>
-        <aside class="filter-block">
+        <div class="filter-block">
           <p>фильтр:</p>
           <form action="https://127.0.0.1" method="get">    
             <fieldset class="price">
@@ -126,9 +106,28 @@
             </fieldset>
             <input type="submit" value="показать">  
           </form>
-        </aside>
-        <section class="shop-content">
-          <ul>    
+        </div>
+        <div class="sorting-block">
+          сортировка:
+          <ul class="sorting-block-list">   
+            <li>
+              <a href="">по цене</a>
+            </li>
+            <li>
+              <a href="">по типу</a>
+            </li>
+            <li>
+              <a class="active" href="">по функционалу</a>
+            </li>
+            <li>
+              <a class="triangle-sort visually-hidden" href="">По убыванию</a>
+            </li>
+            <li>
+              <a class="triangle-sort visually-hidden" href="">По возрастанию</a>
+            </li>
+          </ul>
+          <section class="shop-content">
+          <ul class="shop-content-list">    
             <li class="shop-item"> 
               <img src="img/drill3000.png" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
               <article class="on-hover" style="display: none;"><!-- Потом уберу инлайн стили после того как сетку сделаю -->
@@ -269,7 +268,9 @@
               <a href="#">Спецпредложения</a>
             </li>    
           </ul>
-        </div>  
+        </div>
+        </div>
+          
       </section>
       <section class="footer-bot">
         <div class="footer-container-fix">

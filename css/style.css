@@ -723,6 +723,8 @@ footer {
 .main-content {
   width: 940px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-title {
@@ -731,3 +733,31 @@ footer {
   background-color: #f2f6f8;
   margin: 0;
 }
+
+.filter-block {
+  width: 220px;
+  min-height: 750px;
+}
+
+.sorting-block {
+  width: 700px;
+}
+
+.sorting-block-list {
+  display: flex;
+  height: 40px;
+  padding: 0;
+}
+
+.shop-content {
+  width: 700px;
+}
+
+.shop-content-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+
